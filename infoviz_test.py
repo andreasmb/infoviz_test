@@ -17,12 +17,12 @@ plost.line_chart(
     data=music,
     x={
         "field": 'year',
-        "title": "Custom x-axis title",  # <-- Custom y-axis title
+        "title": "Year",  # <-- Custom y-axis title
         "type": "temporal"
     },
     y={
         "field": ['rock', 'jazz'],
-        "title": "Custom y-axis title",  # <-- Custom y-axis title
+        "title": "Genre popularity",  # <-- Custom y-axis title
         "type": "quantitative"
     }
 )
